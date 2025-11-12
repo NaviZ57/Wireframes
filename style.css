@@ -79,6 +79,20 @@ body {
     display: flex;
     flex-direction: column;
 }
+.imagen1{
+    position:    relative;
+    
+    max-width: 400px;
+    max-height: 400px;
+    box-shadow: #5F4A8E 10px 10px 10px;
+}
+.imagen2{
+    position:   relative;
+    left: 200px;
+    max-width: 400px;
+    max-height: 400px;
+    box-shadow: #5F4A8E 10px 10px 10px;
+}
 .menu-hamburguesa input[type="checkbox"] {
     display: none;
 }
@@ -116,5 +130,16 @@ body {
         width: 200px;
         flex-direction: column;
     }   
+    .imagen1{
+    position:  relative;
+    max-width: 150px;
+    max-height: 150px;
+    }
+    .imagen2{
+        position: relative;
+        left: 25px;
+        max-width: 150px;
+        max-height: 150px;
+    }
 
 }
