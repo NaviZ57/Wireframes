@@ -9,11 +9,22 @@ body {
     align-items: center;
     padding: 15px 30px;
     background-color: #7F2E40;
-    color: #BCAECA;
+    color: #D1BAC7;
+    transition: background-color 0.3s ease;
+}
+.header:hover {
+    background-color: #b3001b;
+}
+.footer{
+    color: #7ea3cc;
+    transition: text-shadow 0.3s ease;
+}
+.footer:hover{
+    text-shadow: 0px 0px 5px #232ed1;
 }
 .enlace{
     text-decoration: none;
-    color: #BCAECA;
+    color: #D1BAC7;
     margin: 0 10px;
     font-size: 18px;
     cursor: pointer;
@@ -22,7 +33,7 @@ body {
 }
 .enlace:hover {
     color: #E5C6C3;
-    text-shadow: 0px 0px 5px #5F4A8E;
+    text-shadow: 0px 0px 5px #7ea3cc;
 }
 .tarjeta_main{
     margin: 20px;
@@ -47,13 +58,13 @@ body {
     flex-direction: column;
 }
 .h1{
-    font-size: 24px;
+    font-size: 32px;
     color: #941B0C;
 }
 .tarjeta_sub h2{
     font-size: 24px;
     line-height: 1.5;
-    color: #6F1609;
+    color: #7F2E40;
     display: flex;
     flex-direction: column;
 }
